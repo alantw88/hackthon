@@ -38,7 +38,7 @@ rem;
 		}
 	.data1,.data2,.data3,.file02{
 
-	height: 200px;
+	height: 160px;
 	padding: 13px;
 	
 	margin-bottom: 5px;
@@ -46,11 +46,7 @@ rem;
 	text-align: center;					
 		}
 
-	.data3{
-	position:absolute;
-	margin-top:-60px;
-	left:35%
-	}
+
 	.file02{
 	position:absolute;
 	margin-top:20px;
