@@ -1,0 +1,71 @@
+
+body {
+/*
+background-image: url("p2.jpg");
+background-size: 100%;
+background-repeat: no-repeat;
+*/
+}
+
+.select_frame {
+width: 800px;
+margin: 0 auto;
+height: 260px;
+
+margin top: 100px
+
+padding: 13px;
+//background-color: rgba(150, 50, 10, 0.5);
+//border-radius: 10px;
+text-align: center;
+}
+.i {
+        color:rgb(38,32,32);
+        letter-spacing:2px;
+}
+.i{
+  font-size: 35px;
+  font-family: 宋體;
+  text-shadow:
+     0 0 5px rgba(67,232,216, 1),
+    0 0 10px rgba(67,232,216, 1),
+    0 0 20px rgba(67,232,216, 1),
+    0 0 40px rgba(67,232,216, 1);
+   animation:neon-shine 2s 1s linear infinite;
+}
+@keyframes neon-shine{
+  0%{opacity:1;}
+  90%{opacity:0.6;}
+  100%{
+  color:white;}
+}
+.btn {
+    background-color: #070707; 
+    border: none;
+    color: white;
+    padding: 5px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+	font-family: 宋體;
+    font-size: 12px;
+
+	border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+	border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+.btn1 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #070707;
+}
+
+.btn1:hover {
+    background-color: blue;
+    color: white;
+}
+
